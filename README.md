@@ -6,10 +6,10 @@ NetherrackJS is a simple Node.js wrapper for the vanilla Minecraft server.
 * Allows you to easily send commands to the server.
 * Emits an event every time something is logged to the console.
 
-Consult the wiki for more details.
+Consult [the wiki](http://github.com/Bassab03/netherrackjs/wiki) for more details.
 
 ## Requirements
-* `node.js` (v6.11.2 or later recommended)
+* [node.js](http://nodejs.org) (v6.11.2 or later recommended)
 
 ## Installation
 1. Download this repository.
