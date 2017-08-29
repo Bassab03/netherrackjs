@@ -4,23 +4,23 @@ NetherrackJS is a simple Node.js wrapper for the vanilla Minecraft server.
 ## Features
 * Starts the vanilla Minecraft server `.jar` and streams the server console to the CLI.
 * Allows you to easily send commands to the server.
-* Emits an event every time something is logged to the console.
-
-Consult [the wiki](http://github.com/Bassab03/netherrackjs/wiki) for more details.
-
-## Requirements
-* [node.js](http://nodejs.org) (v6.11.2 or later recommended)
+* Emits an event whenever certain events happen in the Minecraft world.
 
 ## Installation
-1. Find your server root and rename your server `.jar` to `netherrack_server.jar`.
-2. Open the command line and navigate to your server root with `cd`.
-3. Type in `npm install netherrackjs` and hit `Enter`.
-4. Create a new JavaScript file called `test.js` in the server root and paste in the following line of code:
-`const netherrack = require('netherrackjs');`
-5. Go back into the command line, type in `node test.js` and hit `Enter`.
-6. The server should start running! The server console will be streamed to the command line, so you can easily see if it works.
+NetherrackJS requires [node.js](https://nodejs.org") to run (v6.11.2 or later recommended).
 
-If the file throws an error, go through the steps one more time and try again. If the problem persists, please ask for help in [this](https://discord.gg/pTcuDn2) Discord server.
+Open the command line and type:
+
+    npm install netherrackjs
+
+## Usage
+First, rename your server file to `netherrack_server.jar`.
+
+Require the package in a `.js` file in the server root to start using NetherrackJS:
+
+    const netherrack = require('netherrackjs');
+
+You can now use NetherrackJS in that file! Check out [the docs](https://github.com/Bassab03/netherrackjs/wiki/Documentation) for more information.
 
 ## Bugs, issues and suggestions
 If you come across something you believe is a bug or otherwise an issue, please report it on [GitHub](https://github.com/Bassab03/netherrackjs/issues) or on the [NetherrackJS Discord server](https://discord.gg/9Dm68N4).

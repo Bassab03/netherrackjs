@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NetherrackJS</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500|Open+Sans" rel="stylesheet">
+  <link href="./site/css/main.css" type="text/css" rel="stylesheet" />
+  <link href="./site/favicon.png" type="image/png" rel="icon"/>
+</head>
+<body>
+  <div class="navbar">
+
+    <!--<table cellspacing="0">
+      <tr>
+        <td id="logo">NetherrackJS</td>
+        <td class="navcell"><a href="./docs">Documentation</a></td>
+        <td class="navcell"><a href="https://github.com/Bassab03/netherrackjs">GitHub</a></td>
+        <td class="navcell"><a href="https://www.npmjs.com/package/netherrackjs">npm</a></td>
+      </tr>
+    </table>-->
+    <div id="fl">
+      <div id="logo">NetherrackJS</div>
+      <a href="https://github.com/Bassab03/netherrackjs/wiki/Documentation"><div class="navcell">Documentation</div></a>
+      <a href="https://github.com/Bassab03/netherrackjs"><div class="navcell">GitHub</div></a>
+      <a href="https://www.npmjs.com/package/netherrackjs"><div class="navcell">npm</div></a>
+    </div>
+    <!--<ul class="navbar">
+      <li id="njs">NetherrackJS</li>
+      <li id="documentation">Documentation</li>
+    </ul>-->
+  </div>
+  <div id="main">
+    <p id="headline">A simple Node.js wrapper for the vanilla Minecraft server</p>
+    <span class="title">Installation</span>
+    <p>NetherrackJS requires <a href="https://nodejs.org">node.js</a> to run (v6.11.2 or later recommended).</p><br/>
+    <p>Open the command line and type:</p>
+    <pre><code>npm install netherrackjs</code></pre>
+
+    <span class="title">Usage</span>
+    <p>First, rename your server file to <span class="code">netherrack_server.jar</span>.</p><br/>
+    <p>Require the package in a <span class="code">.js</span> file in the server root to start using NetherrackJS:</p>
+    <pre><code>const netherrack = require('netherrackjs');</code></pre>
+    <p>You can now use NetherrackJS in that file! Check out <a href="https://github.com/Bassab03/netherrackjs/wiki/Documentation">the docs</a> for more information.</p>
+
+    <span class="title">Releases</span>
+    <ul>
+      <li><a href="https://github.com/Bassab03/netherrackjs/releases/v1.1" class="version">v1.1</a>
+        <ul>
+          <li class="changelog">- Added <span class="code">'start'</span>, <span class="code">'join'</span>, <span class="code">'chat'</span>, <span class="code">'reload'</span>, <span class="code">'save'</span> and <span class="code">'stop'</span> events.</li>
+          <li class="changelog">- Added <span class="code">respawn()</span> function.</li>
+        </ul>
+      </li><br/>
+      <li><a href="https://github.com/Bassab03/netherrackjs/releases/v1.0.1" class="version">v1.0.1</a>
+        <ul>
+          <li class="changelog">- Published to NPM and can be installed with <span class="code">npm install netherrackjs</span>.</li>
+          <li class="changelog">- Server file now has to be named <span class="code">netherrack_server.jar</span>.</li>
+        </ul>
+      </li><br/>
+      <li><a href="https://github.com/Bassab03/netherrackjs/releases/v1.0" class="version">v1.0</a>
+        <ul>
+          <li class="changelog">- Initial release.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div id="footer">
+    <p>NetherrackJS &copy; Bassab03</p>
+  </div>
+</body>
+</html>
