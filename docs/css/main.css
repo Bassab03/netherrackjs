@@ -21,14 +21,16 @@ p {
   font-size: 90%;
 }
 
-.navbar {
+#navbar {
   width: 100%;
   height: 48px;
+  display: flex;
   background-color: #F44336;
   box-shadow: 0 0 5px #666;
   position: fixed;
   color: #fff;
   padding: 16px;
+  align-items: center;
 }
 
 .title {
@@ -43,12 +45,6 @@ p {
   font-size: 125%;
   color: #E53935;
   text-align: center;
-}
-
-#fl {
-  display: flex;
-  align-items: center;
-  height: 100%;
 }
 
 #logo {
@@ -76,11 +72,11 @@ p {
   background-color: #fff;
 }
 
-#fl a {
+#navbar a {
   color: #fff;
 }
 
-#fl a:hover {
+#navbar a:hover {
   color: #F44336;
   text-decoration: none;
 }
@@ -140,41 +136,3 @@ li {
 .changelog {
   font-size: 90%;
 }
-
-/*.navcell {
-  height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-right: 1px solid rgba(255, 255, 255, 0.75);
-  transition: background-color 0.25s;
-}
-
-.navcell:hover {
-  background-color: #fff;
-}
-
-.navcell a {
-  width: 100%;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-.navcell:hover a {
-  color: #EA3C53;
-}
-
-table {
-  height: 100%;
-  table-layout: auto;
-  vertical-align: middle;
-}
-
-tr {
-  height: 100%;
-}
-
-td {
-  height: 100%;
-}
-*/
